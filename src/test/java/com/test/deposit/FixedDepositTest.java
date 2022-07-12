@@ -44,7 +44,7 @@ public class FixedDepositTest {
 
 			ExcelReader excelReader = new ExcelReader();
 
-			excelReader.openExcelFile("C:\\Users\\Bhushan\\eclipse-workspace\\fixed-deposit\\src\\test\\java\\com\\test\\deposit\\data\\deposit_value.xlsx");
+			excelReader.openExcelFile("C:\\eclipse-workspace\\fixed-deposit\\src\\test\\java\\com\\test\\deposit\\data\\deposit_value.xlsx");
 			excelReader.openExcelSheet("Sheet1");
 
 			int rowCount = excelReader.getRowCountInSheet();
